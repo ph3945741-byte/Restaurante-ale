@@ -54,7 +54,7 @@ export default function App() {
         <article><span className="info-icon"><Star size={19} /></span><div><small>AVALIAÇÃO</small><strong>{restaurant.rating} <span>({restaurant.reviewCount})</span></strong></div></article>
         <article><span className="info-icon"><Utensils size={19} /></span><div><small>COZINHA</small><strong>{restaurant.category}</strong></div></article>
         <article><span className="info-icon"><span className="price-symbol">R$</span></span><div><small>FAIXA DE PREÇO</small><strong>{restaurant.priceRange}</strong></div></article>
-        <article><span className="info-icon"><Clock3 size={19} /></span><div><small>ABERTURA INFORMADA</small><strong>A partir das {restaurant.openingTime}</strong></div></article>
+        <article><span className="info-icon"><Clock3 size={19} /></span><div><small>FUNCIONAMENTO</small><strong>Lanchonete à tarde · Restaurante à noite</strong></div></article>
       </section>
 
       <section className="about section-wrap" id="sobre">
@@ -73,7 +73,7 @@ export default function App() {
           <div className="section-kicker light-kicker">02 — VISITE A GENTE</div>
           <h2>Vai ser um prazer<br /><em>receber você.</em></h2>
           <div className="visit-detail"><MapPin size={20} /><div><small>ENDEREÇO</small><p>{restaurant.address}</p></div></div>
-          <div className="visit-detail"><Clock3 size={20} /><div><small>HORÁRIO</small><p>Informação disponível: abre às {restaurant.openingTime}. Consulte antes de ir para confirmar o funcionamento.</p></div></div>
+          <div className="visit-detail"><Clock3 size={20} /><div><small>LANCHONETE E RESTAURANTE</small><p>A lanchonete funciona à tarde e o restaurante funciona à noite. Os horários exatos serão informados em breve.</p></div></div>
           <a className="button button-light" href={mapsUrl} target="_blank" rel="noreferrer">Abrir no Google Maps <ArrowUpRight size={17} /></a>
         </div>
         <div className="map-panel">
