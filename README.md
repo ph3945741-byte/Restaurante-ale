@@ -8,7 +8,7 @@ Site institucional do Restaurante Alê, em Itaquaquecetuba (SP).
 - Faixa de preço informada: R$ 1–40
 - Avaliação informada: 4,7/5 (26 avaliações)
 - Endereço: Av. Goncalves Dias, 1424 - Parque Res. Marengo, Itaquaquecetuba - SP, 08594-270
-- Horário informado: abre às 11h (os demais horários ainda precisam ser confirmados)
+- Funcionamento: lanchonete à tarde e restaurante à noite (horários exatos ainda não informados)
 
 ## Rodar localmente
 1. Instale Node.js (versão LTS).
